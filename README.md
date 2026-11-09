@@ -1,36 +1,30 @@
-# 🗂️ **RecordBackOffice**
+# Record Back Office
 
-**RecordBackOffice** is a **React-based back-office application** designed to track and manage visitor details efficiently.  
-It helps organizations monitor and record visitor entries, visits, and history within specific areas or facilities.  
+A React admin panel with authentication, user creation and paginated tables for managing records.
 
----
+## Features
 
-## ✨ **Features**
+- Login and auth layout
+- Dashboard layout with header and routes
+- User creation
+- Paginated tables (including email lists)
 
-- 📝 **Visitor Registration** – Record visitor details (name, contact, purpose of visit).  
-- ⏱️ **Check-in & Check-out** – Track visitor entry and exit times.  
-- 📊 **Visitor Logs** – Maintain a detailed history of past visits.  
-- 🛂 **Access Management** – Assign visitor badges and restrict access to certain areas.  
-- 📍 **Location Tracking** – Monitor which areas visitors have accessed.  
-- 🔔 **Notifications & Alerts** – Notify staff of visitor arrivals.  
-- 📑 **Reports & Analytics** – Generate insights on visitor activity.  
+## Tech stack
 
----
+- **Frontend:** React, Redux (thunk, logger), React Router
+- **UI:** Material UI, Ant Design
 
-## 🛠️ **Tech Stack**
+## Getting started
 
-- **Frontend:** React
-- **Backend (optional):** Node.js / Express  
-- **Database:** MongoDB / PostgreSQL / Firebase  
-- **State Management:** React Hooks / Context API / Redux  
-- **Authentication:** JWT / Firebase Auth  
-- **Deployment:** Vercel / Netlify / Cloud (AWS, Azure, GCP)  
-
----
-
-## 🚀 **Getting Started**
-
-### 1. **Clone the repository**  
 ```bash
-git clone https://github.com/your-username/recordbackoffice.git
-cd recordbackoffice
+yarn install
+yarn start
+```
+
+## Screenshots
+
+<!-- Add 2-3 screenshots here: docs/screenshots/*.png -->
+
+## Author
+
+Built by **Altaf Hassan**, Software Engineer (React Native & full-stack). [Portfolio](https://altaf94-portfolio.netlify.app) · [LinkedIn](https://linkedin.com/in/altaf-hassan)
